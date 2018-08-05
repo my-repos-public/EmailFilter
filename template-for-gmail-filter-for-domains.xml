@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<apps:property name='from' value='@GFilter.Start.BlackList.SPAMFilter.DT201808051330.starts-with-number OR <#(@domain-name.domain-tld OR)+/#> @Gfilter.End'/>
+		<apps:property name='label' value='SPAMFilter/Blacklist/Domains'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<apps:property name='from' value='@GFilter.Start.BlackList.SPAMFilter.DT201808051330.starts-with-AtoC OR <#(@domain-name.domain-tld OR)+/#> @Gfilter.End'/>
+		<apps:property name='label' value='SPAMFilter/Blacklist/Domains'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<apps:property name='from' value='@GFilter.Start.BlackList.SPAMFilter.DT201808051330.starts-with-DtoF OR @dbzresp.com OR <#(@domain-name.domain-tld OR)+/#> @Gfilter.End'/>
+		<apps:property name='label' value='SPAMFilter/Blacklist/Domains'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<apps:property name='from' value=' @GFilter.Start.BlackList.SPAMFilter.DT201808051330.starts-with-GtoI OR <#(@domain-name.domain-tld OR)+/#> @Gfilter.end'/>
+		<apps:property name='label' value='SPAMFilter/Blacklist/Domains'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>		
+		<apps:property name='from' value=' @GFilter.Start.BlackList.SPAMFilter.DT201808051330.starts-with-JtoR OR <#(@domain-name.domain-tld OR)+/#> @Gfilter.end'/>
+		<apps:property name='label' value='SPAMFilter/Blacklist/Domains'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<apps:property name='from' value=' @GFilter.Start.BlackList.SPAMFilter.DT201808051330.starts-with-StoZ OR @salekode.com OR <#(@domain-name.domain-tld OR)+/#> @Gfilter.end'/>
+		<apps:property name='label' value='SPAMFilter/Blacklist/Domains'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>
