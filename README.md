@@ -1,7 +1,7 @@
 # EmailFilter
 
 
-Email Filter Project
+Email Filter Project (pre-alpha)
 
 
 # Licensing
